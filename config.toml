@@ -1,12 +1,12 @@
 esp_toml_version = 1.0
 firmware_images_url = "https://raw.githubusercontent.com/PumpkinLin314/aec_test_firmware/refs/heads/main/firmware/"
 
-supported_apps = ["aec_test_firmware"]
+supported_apps = ["check_aec"]
 
-[aec_test_firmware]
+[check_aec]
 readme.text = "https://raw.githubusercontent.com/PumpkinLin314/aec_test_firmware/refs/heads/main/README.md"
 description = "AEC test firmware"
-image.esp32s3_r2 = "aec_test_firmware-esp32s3_r2.bin"
-image.esp32s3_r8 = "aec_test_firmware-esp32s3_r8.bin"
+image.esp32s3_r2 = "check_aec-esp32s3_r2.bin"
+image.esp32s3_r8 = "check_aec-esp32s3_r8.bin"
 chipsets = ["esp32s3"]
 developKits.esp32s3 = ["esp32s3_r2", "esp32s3_r8"]
